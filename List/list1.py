@@ -28,13 +28,15 @@
 # print('removed element:',removed_element)
 # print('updated list:',prime_numbers)
 
-list1=[12,14,16,18,20]
+# list1=[12,14,16,18,20]
 # l=list1*2
 # print(l)
-list2=[9,10,32,54,86]
+# list2=[9,10,32,54,86]
 # l=list1+list2
 # print(l)
-a=len(list1)
-print(a)
+# a=len(list1)
+# print(a)
+
+
 
 
