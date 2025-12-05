@@ -100,5 +100,46 @@
 #     print()
 
 # PRINT EVEN AND ODD NUMBERS UPTO 20 USING FOR LOOP
+# print('Even numbers:- ')
+# for i in range(1,21):
+#     if i%2==0:
+#         print(i,end=" ")
+# print()
+# print('Odd numbers:- ')
+# for i in range(1,21):
+#     if i%2!=0:
+#         print(i,end=" ")
+
+# [20,18,10,5,100,80]PRINT GIVEN LIST IN ACCENDING ORDER
+# list=[20,18,10,5,100,80]
+# list.sort()
+# print(list)
+# l=[20,18,10,5,100,80]
+# length = len(l)
+# for i in range(0,length):
+#     for j in range(0,length):
+#         if l[i]<l[j]:
+#             c=l[i]
+#             l[i]=l[j]
+#             l[j]=c
+# print(l)
+
+        # ASCII TABLE
+
+# for i in range(70,76):
+#     for j in range(70,i+1):
+#         print(chr(j),end=" ")
+#     print()
 
 
+    
+
+
+        
+    
+        
+    
+         
+
+    
+            
