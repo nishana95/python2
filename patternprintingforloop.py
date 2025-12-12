@@ -65,21 +65,19 @@
 #     print(" "*(n-j)+'* '*(j))
 
 # 9.HOURGLASS PATTERN
-n=5
-for i in range(n,0,-1):
-    for j in range(n-i):
-        print(' ',end="")
-    for j in range(i):
-        print("* ",end="")
-    print()
-for i in range(2,n+1):
-    for j in range(n-1):
-        print(' ',end="")
-    for j in range(i):
-        print("* ",end="")
-    print()
-
-
+# n=5
+# for i in range(5, 0, -1):
+#         for j in range(n - i):
+#             print(" ", end="")
+#         for k in range(2 * i - 1):
+#             print("*", end="")
+#         print()
+# for i in range(2, n + 1):
+#     for j in range(n - i):
+#         print(" ", end="")
+#     for k in range(2 * i - 1):
+#         print("*", end="")
+#     print()
 
 
 # 10. HOLLOW SQUARE PATTERN
@@ -90,12 +88,40 @@ for i in range(2,n+1):
 #             print("*",end=" ")
 #         else:
 #             print(" ",end=" ")
-        
 #     print()
 
+
 # 11.HOLLOW FULL PYRAMID
+# for i in range(1,5):
+#     for j in range(1,8):
+#         if i==4 or i+j==5 or j-i==3:
+#             print("*",end="")
+#         else:
+#             print(end=" ")
+#     print()
+
+
 # 12.HOLLOW INVERTED FULL PYRAMID
-# 13.HOLLOW DIAMOND PYRAMID
+# n=5
+# for i in range(5, 0, -1):
+#     for j in range(n - i):
+#         print(' ', end='')
+#     for j in range(2 * i - 1):
+#         if j == 0 or j == 2 * i - 2 or i == n:
+#             print('*', end='')
+#         else:
+#             print(' ', end='')
+#     print()
+
+# 13.HOLLOW DIAMOND 
+# for i in range(5):
+#     for j in range(5):
+#         if i+j==2 or j-i==2 or i-j==2 or i+j==6:
+#             print("*",end="")
+#         else:
+#             print(end=" ")
+#     print()
+
 # 14.FLOYDS TRIANGLE
 # a=1
 # for i in range(0,4):
@@ -106,6 +132,13 @@ for i in range(2,n+1):
 
 
 # 15.PASCALS TRIANGLE
+
+
+
+
+
+
+
 # 16.SQUARE OF STAR
 # n = 5
 # for i in range(0,n):
@@ -118,8 +151,13 @@ for i in range(2,n+1):
 #     for j in range(1,6):
 #         print(i,end=" ")
 #     print() 
-
-
-    
+# 18.PRINT STARS IN LETTER N SHAPE
+# for i in range(6):
+#     for j in range(6):
+#         if j==0 or j==5 or (i==j and (j>0 and j<5)):
+#             print("*",end="")
+#         else:
+#             print(end=" ")
+#     print()
 
 
