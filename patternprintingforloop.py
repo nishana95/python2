@@ -3,7 +3,7 @@
 #     for j in range(0,i+1):
 #         print("* ",end=(" "))
 #     print()
-
+# --------------------------------------------------------
 # 2. LEFT HALF PYRAMID
 # n=5
 # for i in range(n):
@@ -12,7 +12,7 @@
 #     for j in range(i+1):
 #         print("*",end=" ")
 #     print()
-
+# -----------------------------------------------------------------
 # 3. FULL PYRAMID
 # n=5
 # for i in range(0,n):
@@ -21,15 +21,14 @@
 #     for j in range(0,i+1):
 #         print("*",end=" ")
 #     print()
-
+# -------------------------------------------------------------------
 # 4. INVERTED RIGHT HALF PYRAMID
 # n=6
 # for i in range(n,0,-1):
 #     for j in range(0,i):
 #         print("*",end=" ")
 #     print()
-
-
+# ---------------------------------------------------------------------
 # 5. INVERTED LEFT HALF PYRAMID
 # n=5
 # for i in range(1,n+1):
@@ -38,7 +37,7 @@
 #     for k in range(n-i+1):
 #         print('*',end=' ')
 #     print()      
-
+# -----------------------------------------------------------------------
 # 6. INVERTED FULL PYRAMID
 # n=6
 # for i in range(n,0,-1):
@@ -47,7 +46,7 @@
 #     for j in range(1*i-1):
 #         print("*",end=" ")
 #     print()
-
+# ---------------------------------------------------------------------------
 # 7. RHOMBUS PATTERN
 # n=6
 # for i in range(1,n+1):
@@ -56,14 +55,14 @@
 #     for j in range(1,n+1):
 #         print("*",end=" ")
 #     print()
-
+# ----------------------------------------------------------------------------
 # 8. DIAMOND PATTERN
 # n=5
 # for i in range(n):
 #     print(' '*(n-i-1)+"* "*(i+1))
 # for j in range(n-1,0,-1):
 #     print(" "*(n-j)+'* '*(j))
-
+# ------------------------------------------------------------------------------
 # 9.HOURGLASS PATTERN
 # n=5
 # for i in range(5, 0, -1):
@@ -78,8 +77,7 @@
 #     for k in range(2 * i - 1):
 #         print("*", end="")
 #     print()
-
-
+# ----------------------------------------------------------------
 # 10. HOLLOW SQUARE PATTERN
 
 # for i in range(0,5):
@@ -89,8 +87,7 @@
 #         else:
 #             print(" ",end=" ")
 #     print()
-
-
+# -----------------------------------------------------------------
 # 11.HOLLOW FULL PYRAMID
 # for i in range(1,5):
 #     for j in range(1,8):
@@ -99,8 +96,7 @@
 #         else:
 #             print(end=" ")
 #     print()
-
-
+# ----------------------------------------------------------------
 # 12.HOLLOW INVERTED FULL PYRAMID
 # n=5
 # for i in range(5, 0, -1):
@@ -112,7 +108,7 @@
 #         else:
 #             print(' ', end='')
 #     print()
-
+# ------------------------------------------------------------------
 # 13.HOLLOW DIAMOND 
 # for i in range(5):
 #     for j in range(5):
@@ -121,7 +117,7 @@
 #         else:
 #             print(end=" ")
 #     print()
-
+# ---------------------------------------------------------------------
 # 14.FLOYDS TRIANGLE
 # a=1
 # for i in range(0,4):
@@ -129,8 +125,7 @@
 #         print(a,end=" ")
 #         a=a+1
 #     print() 
-
-
+# ---------------------------------------------------------------------
 # 15.PASCALS TRIANGLE
 
 
@@ -139,18 +134,20 @@
 
 
 
+# --------------------------------------------------------------------
 # 16.SQUARE OF STAR
 # n = 5
 # for i in range(0,n):
 #     for j in range(0,n):
 #         print("* ",end=" ")
 #     print()
-
+# -------------------------------------------------------------------
 # 17.NUMBER SQUARE
 # for i in range(0,5):
 #     for j in range(1,6):
 #         print(i,end=" ")
 #     print() 
+# ------------------------------------------------------------------------
 # 18.PRINT STARS IN LETTER N SHAPE
 # for i in range(6):
 #     for j in range(6):
@@ -159,5 +156,14 @@
 #         else:
 #             print(end=" ")
 #     print()
+# ------------------------------------------------------------------------
+# 19.PRINT ODD NUMBER OF *s 
+# n=int(input("Enter the number of rows : "))
+# k=1
+# for i in range(0,n):
+#     for j in range(0,k):
+#         print("*",end=" ")
+#     k=k+2
+    # print()
 
 
