@@ -72,8 +72,9 @@
 # print(l)
 
 # PRINT HELLO IN REVERSE
-# a = "hello"
-# print(a[::-1])
+a = "hello"
+print(a[::-1])
+# PRINT HELLO IN RIGHT TRIANGLE
 # b=""
 # for i in a:
 #     b=i+b

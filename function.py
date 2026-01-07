@@ -1,15 +1,14 @@
 # from while1 import add,sub
 # add()
-
 # -------------------------------------------------------------------------------------
-def add(a,b):
-    return a+b
-def sub(a,b):
-    return a-b
-def mul(a,b):
-    return a*b
-def div(a,b):
-    return a/b
+# def add(a,b):
+#     return a+b
+# def sub(a,b):
+#     return a-b
+# def mul(a,b):
+#     return a*b
+# def div(a,b):
+#     return a/b
 
 # a=int(input("Enter the first number : "))
 # b=int(input("Enter the second number : "))
@@ -196,4 +195,31 @@ def div(a,b):
 
 # n=5
 # print_numbers(n)
+# -----------------------------------------------------------------------------------------
+# Create a function calculate_total(price, tax=5) that calculates the total cost after adding tax.
+# def calculate_total(price,tax=5):
+#     return price+(price*tax/100)
 
+# print(calculate_total(100))
+# ------------------------------------------------------------------------------------
+# Write a function that modifies a global list by adding new items
+# items=[]
+# def add_item(item):
+#     items.append(item)
+      
+# add_item("apple")
+# print(items)
+# ---------------------------------------------------------------------------------
+#  Write a recursive function to reverse a string
+# def reverse_string(s):
+#     if len(s) == 0:
+#          return s
+#     else:
+#         return reverse_string(s[1:]) + s[0]
+
+# print(reverse_string("hello"))
+# -------------------------------------------------------------------------------
+# Create a lambda function to find the square of a number
+# square = lambda x: x * x 
+# print(square(7)) 
+# ----------------------------------------------------------------------------

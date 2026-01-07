@@ -36,7 +36,50 @@
 # print(l)
 # a=len(list1)
 # print(a)
+# -----------------------------------------------------------------------------------
+# NESTED LIST(LMS STUDY MATERIAL TASK)
 
+# Create a nested list of 3 shopping lists (groceries, electronics, clothes).
+# Try accessing items from each list and modifying them.
 
+# shopping_lists = [
+#     ["Rice", "Milk", "Eggs"],          
+#     ["Laptop", "Headphones", "Mouse"], 
+#     ["Shirt", "Jeans", "Jacket"] ]      
 
+# print("First grocery item:", shopping_lists[0][0])
+# print("Second electronic item:", shopping_lists[1][1])
+# print("Third clothing item:", shopping_lists[2][2])
 
+# shopping_lists[0][1] = "Almond Milk"   
+# shopping_lists[1][0] = "Tablet"        
+# shopping_lists[2].append("Shoes")      
+
+# print("Groceries:", shopping_lists[0])
+# print("Electronics:", shopping_lists[1])
+# print("Clothes:", shopping_lists[2])
+# -------------------------------------------------------------------------------
+# 1. Generate squares of numbers from 1 to 10 using list comprehension
+# squares = [x**2 for x in range(1, 11)]
+# print(squares)
+
+# text = "Python Programming is fun!"
+# vowels = [ch for ch in text if ch.lower() in "aeiou"]
+# print(vowels)
+# ------------------------------------------------------------------------------------
+# Create a list of 5 of your favorite foods. Use a for loop to print each item with the sentence: ‘I love eating _____.’"
+# list=["grapes","apple","banana","pineapple","strawberry"]
+# for i in list:
+#     print("I Love eating ",i)
+# ---------------------------------------------------------------------------------
+# Extract all vowels from the string 'Python Programming is fun!
+# text = "Python Programming is fun!"
+# vowels = "aeiouAEIOU"
+
+# result = [ch for ch in text if ch in vowels]
+# print(result)
+# ---------------------------------------------------------------------------------------
+# Filter out even numbers from a list of integers from 1 to 20
+# numbers = list(range(1, 21))
+# even_numbers = [n for n in numbers if n % 2 == 0]
+# print(even_numbers)
